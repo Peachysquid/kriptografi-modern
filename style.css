@@ -1,0 +1,94 @@
+/* Gaya umum untuk semua halaman */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #cbe6eb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    color: #EF476F;
+    margin-bottom: 10px;
+  }
+
+  .centered-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 30%;
+    height: auto;
+  }
+  
+  p {
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+    margin-top: 15px;
+  }
+  
+  textarea, input, button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  textarea:focus, input:focus {
+    outline: none;
+    border-color: #EF476F;
+  }
+  
+  button {
+    background-color: #fae1a7;
+    color: #333;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ba93bf;
+    color: white;
+  }
+  
+  .output {
+    font-weight: bold;
+    color: #118AB2;
+    margin-top: 15px;
+    word-wrap: break-word;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+
+  .center {
+    text-align: center;
+  }
+  

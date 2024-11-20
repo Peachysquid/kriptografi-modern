@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kriptografi Modern</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Kriptografi Modern</h1>
+
+    <label for="plaintext">Teks:</label>
+    <textarea id="plaintext" rows="4" placeholder="Masukkan teks untuk enkripsi atau dekripsi"></textarea>
+
+    <label for="key">Kunci Rahasia:</label>
+    <input type="text" id="key" placeholder="Masukkan kunci rahasia">
+
+    <button onclick="encryptText()">Enkripsi</button>
+    <button onclick="decryptText()">Dekripsi</button>
+
+    <h3>Hasil:</h3>
+    <div class="output" id="output">-</div>
+    <div class="footer">© 2024 - Website Kriptografi Otomatis</div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
